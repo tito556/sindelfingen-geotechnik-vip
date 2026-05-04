@@ -1,0 +1,51 @@
+# Geotechnik — Sindelfingen
+
+> Geotechnical engineering services in Sindelfingen, Deutschland.
+
+## Services
+- [Anker](https://sindelfingen.geotechnik.vip/anker/)
+- [Atterberg Grenzen](https://sindelfingen.geotechnik.vip/atterberg-grenzen/)
+- [Aushub](https://sindelfingen.geotechnik.vip/aushub/)
+- [Aushub Monitoring](https://sindelfingen.geotechnik.vip/aushub-monitoring/)
+- [Bodenplatten](https://sindelfingen.geotechnik.vip/bodenplatten/)
+- [Bodenverbesserung](https://sindelfingen.geotechnik.vip/bodenverbesserung/)
+- [Boschungsstabilitat](https://sindelfingen.geotechnik.vip/boschungsstabilitat/)
+- [Cbr Strasse](https://sindelfingen.geotechnik.vip/cbr-strasse/)
+- [Cpt Versuch](https://sindelfingen.geotechnik.vip/cpt-versuch/)
+- [Erdbebenisolierung](https://sindelfingen.geotechnik.vip/erdbebenisolierung/)
+- [Flexibler Belag](https://sindelfingen.geotechnik.vip/flexibler-belag/)
+- [Fundamente](https://sindelfingen.geotechnik.vip/fundamente/)
+- [Grundungen](https://sindelfingen.geotechnik.vip/grundungen/)
+- [Hange](https://sindelfingen.geotechnik.vip/hange/)
+- [In Situ Durchlassigkeit](https://sindelfingen.geotechnik.vip/in-situ-durchlassigkeit/)
+- [Injektionen](https://sindelfingen.geotechnik.vip/injektionen/)
+- [Korngrossenanalyse](https://sindelfingen.geotechnik.vip/korngrossenanalyse/)
+- [Labor](https://sindelfingen.geotechnik.vip/labor/)
+- [Labor In Situ](https://sindelfingen.geotechnik.vip/labor-in-situ/)
+- [Masw](https://sindelfingen.geotechnik.vip/masw/)
+- [Pfahle](https://sindelfingen.geotechnik.vip/pfahle/)
+- [Proctor Versuche](https://sindelfingen.geotechnik.vip/proctor-versuche/)
+- [Ruttelverdichtung](https://sindelfingen.geotechnik.vip/ruttelverdichtung/)
+- [Sandkegel Dichte](https://sindelfingen.geotechnik.vip/sandkegel-dichte/)
+- [Schottersaulen](https://sindelfingen.geotechnik.vip/schottersaulen/)
+- [Schurfgruben](https://sindelfingen.geotechnik.vip/schurfgruben/)
+- [Seismik](https://sindelfingen.geotechnik.vip/seismik/)
+- [Seismische Mikrozonierung](https://sindelfingen.geotechnik.vip/seismische-mikrozonierung/)
+- [Seismische Refraktion](https://sindelfingen.geotechnik.vip/seismische-refraktion/)
+- [Spt Bohrung](https://sindelfingen.geotechnik.vip/spt-bohrung/)
+- [Starrer Belag](https://sindelfingen.geotechnik.vip/starrer-belag/)
+- [Strassenbau](https://sindelfingen.geotechnik.vip/strassenbau/)
+- [Stutzmauern](https://sindelfingen.geotechnik.vip/stutzmauern/)
+- [Tiefe Aushube](https://sindelfingen.geotechnik.vip/tiefe-aushube/)
+- [Triaxialversuch](https://sindelfingen.geotechnik.vip/triaxialversuch/)
+- [Untersuchung](https://sindelfingen.geotechnik.vip/untersuchung/)
+- [Verflussigung](https://sindelfingen.geotechnik.vip/verflussigung/)
+- [Weichbodentunnel](https://sindelfingen.geotechnik.vip/weichbodentunnel/)
+- [Widerstand](https://sindelfingen.geotechnik.vip/widerstand/)
+
+## Contact
+- Website: https://sindelfingen.geotechnik.vip/
+
+## About
+This site provides geotechnical engineering services in Sindelfingen, Deutschland.
+Compliant with local and international standards (ASTM, ISO, country-specific norms).
