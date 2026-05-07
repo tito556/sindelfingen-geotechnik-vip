@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
+<head><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg">
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Straßengeotechnik in Sindelfingen – Germany</title>
 <meta name="description" content="Die Straßengeotechnik in Sindelfingen umfasst die ingenieurtechnische Bewertung des Untergrunds für Verkehrsflächen unter Berücksichtigung der lokalen Keup">
@@ -19,62 +19,61 @@
 <meta name="twitter:description" content="Die Straßengeotechnik in Sindelfingen umfasst die ingenieurtechnische Bewertung des Untergrunds für Verkehrsflächen unter Berücksichtigung der lokalen Keup">
 <meta name="twitter:image" content="https://sindelfingen.geotechnik.vip/img/anclajes-1.webp">
 <style>
+@media(max-width:900px){.layout{grid-template-columns:1fr}
+details.faq summary{font-weight:700;color:#0F172A;list-style:none;font-family:'Merriweather',serif}
+details.faq p{color:#444;margin:0}
+.cta a{color:#10B981;font-weight:600}
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Source Sans Pro',Georgia,serif;background:#F8FAFC;color:#0F172A;line-height:1.7;font-size:16px}
 a{color:#10B981;text-decoration:none}
-a:hover{color:#059669}
-/* HEADER DARK */
-.header{background:#0F172A;color:#FFF;padding:3rem 3rem 4rem}
-.header-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:2.5rem}
+.cat-sub{background:#F9FAFB;padding:.25rem 0 .5rem;border-top:1px solid #F3F4F6}
 .brand{display:flex;align-items:flex-start;gap:1rem}
-.brand-logo{width:50px;height:50px;border:2px solid #FFF;border-radius:50%;background:#10B981;position:relative;display:flex;align-items:center;justify-content:center;color:#FFF;font-size:1.4rem;font-weight:700;font-family:'Merriweather',sans-serif}
-.brand-text{margin-top:.3rem}
-.brand-name{font-family:'Merriweather',serif;font-weight:700;letter-spacing:.15em;font-size:1rem;color:#FFF}
-.brand-city{font-size:.82rem;color:#888;margin-top:.2rem}
-.header-email{color:#FFF;font-size:.88rem}
-.crumb{font-size:.82rem;color:rgba(255,255,255,.85);margin-bottom:.8rem}
-.crumb a{color:#FFF;text-decoration:underline;font-weight:600}
-.crumb a:hover{color:#10B981}
-.header h1{font-family:'Merriweather',serif;font-weight:700;font-size:clamp(2rem,4vw,2.8rem);color:#FFF;letter-spacing:-.01em;line-height:1.15}
-/* LAYOUT */
-.layout{display:grid;grid-template-columns:240px 1fr;gap:0;max-width:1200px;margin:0 auto;padding:2rem}
+.cat-item:last-child{border-bottom:none}
+.cat-name{flex:1;padding:.7rem 1.25rem;color:#1F2937;font-size:.92rem;font-weight:600;text-decoration:none;line-height:1.3;display:flex;align-items:center}
+.cat-row{display:flex;align-items:stretch;justify-content:space-between;min-height:42px}
+main h2{font-family:'Merriweather',serif;font-weight:700;font-size:1.6rem;color:#0F172A;margin:2rem 0 1rem;letter-spacing:.01em}
 /* SIDEBAR — modern clean */
 aside{background:#FFFFFF;color:#1F2937;padding:0;align-self:start;position:sticky;top:1rem;border-radius:8px;overflow:hidden;border:1px solid #E5E7EB;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+details.faq{background:#FAFAFA;border:1px solid #E5E5E5;padding:1rem 1.3rem;margin-bottom:.7rem;cursor:pointer}
+.cta p{color:#FFF !important;text-align:center !important}
+.brand-city{font-size:.82rem;color:#888;margin-top:.2rem}aside{position:static}
+footer{background:#0F172A;color:#AAA;padding:2rem 3rem;font-size:.82rem;text-align:center;margin-top:3rem}
 .sb-home{display:block;padding:1rem 1.25rem;font-family:'Merriweather',serif;font-weight:700;color:#FFF;background:#0F172A;letter-spacing:.02em;text-decoration:none;font-size:1rem}
-.sb-home:hover{color:#10B981}
-.cat-item{border-bottom:1px solid #F3F4F6}
-.cat-item:last-child{border-bottom:none}
-.cat-row{display:flex;align-items:stretch;justify-content:space-between;min-height:42px}
-.cat-name{flex:1;padding:.7rem 1.25rem;color:#1F2937;font-size:.92rem;font-weight:600;text-decoration:none;line-height:1.3;display:flex;align-items:center}
+.cat-arrow{display:inline-flex;align-items:center;transition:transform .2s}
+details.faq[open] summary{margin-bottom:.7rem;color:#059669}
+body{font-family:'Source Sans Pro',Georgia,serif;background:#F8FAFC;color:#0F172A;line-height:1.7;font-size:16px}
+main p:first-child{font-size:1.05rem;color:#333}
+.brand-name{font-family:'Merriweather',serif;font-weight:700;letter-spacing:.15em;font-size:1rem;color:#FFF}
+table td{padding:.7rem 1rem;border-bottom:1px solid #E5E5E5;color:#0F172A}
+table th{background:#0F172A;color:#FFF;text-align:left;padding:.7rem 1rem;font-size:.85rem;letter-spacing:.05em;font-weight:700}
+.cta{background:#0F172A;color:#FFF;padding:2rem;text-align:center;margin:2rem 0;border-radius:0}
 .cat-name:hover{color:#10B981;background:#F9FAFB}
 .cat-toggle{background:transparent;border:none;border-left:1px solid #F3F4F6;padding:0 .9rem;cursor:pointer;color:#9CA3AF;display:flex;align-items:center;justify-content:center;transition:color .15s}
-.cat-toggle:hover{color:#10B981;background:#F9FAFB}
-.cat-arrow{display:inline-flex;align-items:center;transition:transform .2s}
-.cat-arrow svg{width:10px;height:10px;display:block}
+.cat-item{border-bottom:1px solid #F3F4F6}
+a:hover{color:#059669}
+.crumb-b07c{font-size:.82rem;color:rgba(255,255,255,.85);margin-bottom:.8rem}
 .cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
-.cat-sub{background:#F9FAFB;padding:.25rem 0 .5rem;border-top:1px solid #F3F4F6}
-.cat-sub a{display:block;padding:.5rem 1.25rem .5rem 2rem;color:#4B5563;font-size:.85rem;text-decoration:none;border-left:2px solid transparent;line-height:1.4}
-.cat-sub a:hover{color:#10B981;border-left-color:#10B981;background:#F3F4F6}
+main p{margin-bottom:1.1rem;color:#333;line-height:1.75;text-align:justify;hyphens:auto;-webkit-hyphens:auto}
+.header-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:2.5rem}
+.crumb-b07c a{color:#FFF;text-decoration:underline;font-weight:600}
+/* LAYOUT */
+.layout{display:grid;grid-template-columns:240px 1fr;gap:0;max-width:1200px;margin:0 auto;padding:2rem}
+.header h1{font-family:'Merriweather',serif;font-weight:700;font-size:clamp(2rem,4vw,2.8rem);color:#FFF;letter-spacing:-.01em;line-height:1.15}
+.header-email{color:#FFF;font-size:.88rem}
+table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-family:'Source Sans Pro',serif}
+.cat-toggle:hover{color:#10B981;background:#F9FAFB}
+.cta h3{font-family:'Merriweather',serif;font-size:1.4rem;margin-bottom:.7rem;color:#FFF !important}
+.brand-text{margin-top:.3rem}
+.cat-arrow svg{width:10px;height:10px;display:block}
+/* HEADER DARK */
+.header{background:#0F172A;color:#FFF;padding:3rem 3rem 4rem}
+footer a{color:#10B981}
+.sb-home:hover{color:#10B981}
 /* MAIN */
 main{background:#FFF;padding:3rem 3rem;min-height:60vh}
-main h2{font-family:'Merriweather',serif;font-weight:700;font-size:1.6rem;color:#0F172A;margin:2rem 0 1rem;letter-spacing:.01em}
-main p{margin-bottom:1.1rem;color:#333;line-height:1.75;text-align:justify;hyphens:auto;-webkit-hyphens:auto}
-main p:first-child{font-size:1.05rem;color:#333}
-.cta{background:#0F172A;color:#FFF;padding:2rem;text-align:center;margin:2rem 0;border-radius:0}
-.cta h3{font-family:'Merriweather',serif;font-size:1.4rem;margin-bottom:.7rem;color:#FFF !important}
-.cta p{color:#FFF !important;text-align:center !important}
-.cta a{color:#10B981;font-weight:600}
-table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-family:'Source Sans Pro',serif}
-table th{background:#0F172A;color:#FFF;text-align:left;padding:.7rem 1rem;font-size:.85rem;letter-spacing:.05em;font-weight:700}
-table td{padding:.7rem 1rem;border-bottom:1px solid #E5E5E5;color:#0F172A}
-details.faq{background:#FAFAFA;border:1px solid #E5E5E5;padding:1rem 1.3rem;margin-bottom:.7rem;cursor:pointer}
-details.faq summary{font-weight:700;color:#0F172A;list-style:none;font-family:'Merriweather',serif}
-details.faq[open] summary{margin-bottom:.7rem;color:#059669}
-details.faq p{color:#444;margin:0}
-footer{background:#0F172A;color:#AAA;padding:2rem 3rem;font-size:.82rem;text-align:center;margin-top:3rem}
-footer a{color:#10B981}
-@media(max-width:900px){.layout{grid-template-columns:1fr}aside{position:static}}
-</style><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://sindelfingen.geotechnik.vip/strassenbau/", "url": "https://sindelfingen.geotechnik.vip/strassenbau/", "name": "Straßengeotechnik in Sindelfingen – Germany", "inLanguage": "de", "description": "Die Straßengeotechnik in Sindelfingen umfasst die ingenieurtechnische Bewertung des Untergrunds für Verkehrsflächen unter Berücksichtigung der lokalen Keup", "isPartOf": {"@type": "WebSite", "@id": "https://sindelfingen.geotechnik.vip/#website", "url": "https://sindelfingen.geotechnik.vip"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sindelfingen.geotechnik.vip/"}, {"@type": "ListItem", "position": 2, "name": "Straßengeotechnik", "item": "https://sindelfingen.geotechnik.vip/strassenbau/"}]}, {"@type": "ItemList", "name": "Straßengeotechnik", "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://sindelfingen.geotechnik.vip/flexibler-belag/", "name": "Bemessung flexibler Fahrbahnen"}, {"@type": "ListItem", "position": 2, "url": "https://sindelfingen.geotechnik.vip/starrer-belag/", "name": "Bemessung starrer Fahrbahnen"}, {"@type": "ListItem", "position": 3, "url": "https://sindelfingen.geotechnik.vip/cbr-strasse/", "name": "CBR-Studie für Straßenentwurf"}]}]}</script><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#0A2540"><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head><body>
+.cat-sub a:hover{color:#10B981;border-left-color:#10B981;background:#F3F4F6}
+.crumb-b07c a:hover{color:#10B981}
+.cat-sub a{display:block;padding:.5rem 1.25rem .5rem 2rem;color:#4B5563;font-size:.85rem;text-decoration:none;border-left:2px solid transparent;line-height:1.4}
+.brand-logo{width:50px;height:50px;border:2px solid #FFF;border-radius:50%;background:#10B981;position:relative;display:flex;align-items:center;justify-content:center;color:#FFF;font-size:1.4rem;font-weight:700;font-family:'Merriweather',sans-serif}</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://sindelfingen.geotechnik.vip/strassenbau/","description":"Die Straßengeotechnik in Sindelfingen umfasst die ingenieurtechnische Bewertung des Untergrunds für Verkehrsflächen unter Berücksichtigung der lokalen Keup","url":"https://sindelfingen.geotechnik.vip/strassenbau/","name":"Straßengeotechnik in Sindelfingen – Germany","@type":"WebPage","inLanguage":"de","isPartOf":{"url":"https://sindelfingen.geotechnik.vip","@id":"https://sindelfingen.geotechnik.vip/#website","@type":"WebSite"}},{"itemListElement":[{"position":1,"item":"https://sindelfingen.geotechnik.vip/","name":"Home","@type":"ListItem"},{"position":2,"item":"https://sindelfingen.geotechnik.vip/strassenbau/","name":"Straßengeotechnik","@type":"ListItem"}],"@type":"BreadcrumbList"},{"itemListElement":[{"url":"https://sindelfingen.geotechnik.vip/flexibler-belag/","position":1,"name":"Bemessung flexibler Fahrbahnen","@type":"ListItem"},{"url":"https://sindelfingen.geotechnik.vip/starrer-belag/","position":2,"name":"Bemessung starrer Fahrbahnen","@type":"ListItem"},{"url":"https://sindelfingen.geotechnik.vip/cbr-strasse/","position":3,"name":"CBR-Studie für Straßenentwurf","@type":"ListItem"}],"name":"Straßengeotechnik","@type":"ItemList"}]}</script><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#0A2540"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head><body>
 
 <header class="header">
     <div class="header-top">
@@ -87,7 +86,7 @@ footer a{color:#10B981}
         </div>
         <a href="mailto:kontakt@geotechnik.vip" class="header-email">kontakt@geotechnik.vip</a>
     </div>
-    <div class="crumb"><a href="/">Startseite</a> › <span>Straßengeotechnik</span></div>
+    <div class="crumb-b07c"><a href="/">Startseite</a> › <span>Straßengeotechnik</span></div>
     <h1>Straßengeotechnik in Sindelfingen</h1>
 </header>
 
@@ -97,50 +96,14 @@ footer a{color:#10B981}
         <p>Die Straßengeotechnik in Sindelfingen umfasst die ingenieurtechnische Bewertung des Untergrunds für Verkehrsflächen unter Berücksichtigung der lokalen Keuper- und Lösslehmböden sowie der Anforderungen der RStO und der ZTV E-StB. Die Tragfähigkeitsprüfung mittels <a href="cbr-strasse">CBR-Studie für Straßenentwurf</a> liefert essenzielle Kennwerte für frostsicheren Oberbau. Für stark frequentierte Abschnitte bietet sich die <a href="starrer-belag">Bemessung starrer Fahrbahnen</a> an, die gemäß RDO Beton eine dauerhafte Lastverteilung gewährleistet.</p>
 <p>Diese Leistungen bilden die Grundlage für Erschließungsstraßen, Gewerbegebiete und Kreisverkehrsplätze, wo Verformungsstabilität entscheidend ist. Bei nachgiebigen Untergründen sichert die <a href="flexibler-belag">Bemessung flexibler Fahrbahnen</a> nach dem Mehrschichtmodell die Gebrauchstauglichkeit. So entstehen standsichere Konstruktionen, die den hohen dynamischen Beanspruchungen im Großraum Stuttgart gerecht werden.</p>
 
-        <blockquote style="border-left:4px solid #10B981;background:rgba(0,0,0,.03);padding:1rem 1.25rem;margin:1.5rem 0 1.5rem 1rem;font-style:italic;color:#333;font-size:1.05rem;line-height:1.55;border-radius:0 6px 6px 0">Die Ankerbemessung im Keuper verlangt lokale Erfahrung: Wer den Auslaugungsgrad nicht kennt, liegt schnell um Faktor zwei daneben.</blockquote>
-
         
-
-        <h2>Methodik und Umfang</h2><div>In Sindelfingen sehen wir immer wieder, dass bei Nachverdichtungen im Bestand die seitlichen Abstände zu Nachbarbebauungen knapp sind — oft unter zwei Meter. Da reichen passive Anker allein nicht, weil die Verformungen zu groß werden. Wir setzen dann auf vorgespannte Litzenanker mit kurzer freier Länge, bemessen nach EC7 und abgestimmt auf die lokale Keuper-Geometrie. Für temporäre Baugruben in der Schwippe-Niederung kombinieren wir aktive Anker mit einer <a href="/stutzmauern/">Stützmauer</a>-Rückverankerung, wenn der Grundwasserstand hoch ansteht. Die Bemessung berücksichtigt immer den charakteristischen Wert des Verbundwiderstands, ermittelt aus In-situ-Versuchen, nicht aus Tabellenwerten. Ein typisches Projekt: eine Tiefgarage im Bereich Goldberg, wo der Gipskeuper extrem hart ansteht — da sind Bohrkrone und Verpressdruck entscheidend für die Tragfähigkeit. Unsere Erfahrung zeigt, dass eine vorausgehende <a href="/spt-bohrung/">SPT-Bohrung</a> hier mehr bringt als pauschale Annahmen aus dem Baugrundatlas.</div>
-        <figure style="margin:1.5rem auto;max-width:60%;border-radius:6px;overflow:hidden;border:1px solid #E5E5E5"><img src="/img/anclajes-5.webp" alt="Aktive und passive Verankerungsbemessung in Sindelfingen" loading="lazy" style="width:100%;max-height:200px;object-fit:cover;display:block"></figure>
-        <h2>Lokale Besonderheiten</h2><p>Das Bohrgerät steht auf einem engen Hinterhof an der Vaihinger Straße, der Bohrmast ragt fast senkrecht in den Sindelfinger Abendhimmel. Wir bohren für einen aktiven Daueranker im ausgelaugten Gipskeuper — genau hier liegt das Risiko. Trifft die Bohrkrone auf eine Karsthohlform oder eine unerkannte Auslaugungszone, bricht der Verpresskörper seitlich aus, und die Zulassung des Ankers ist dahin. In solchen Fällen hilft nur Erfahrung: Bohrprotokoll im Zehntelmeter-Takt, Spülungsdruck überwachen, sofort auf Nachverpressung umstellen. Die Stadt Sindelfingen liegt am Rand des Strohgäus, wo die Keuperschichten unregelmäßig ausstreichen. Unsere Probebelastungen zeigen, dass der Verbundwiderstand auf zwanzig Meter Entfernung um dreißig Prozent variieren kann. Deshalb dokumentieren wir jeden Anker mit Abnahmeprotokoll und Kriechversuch. Die Verankerungsbemessung ist hier kein Tabellenjob, sondern eine ingenieurtechnische Einzelfallentscheidung.</p>
-
-        
-    <section class="block mid-cta" style="padding:2rem 0">
+<section class="block mid-cta-b07c" style="padding:2rem 0">
       <div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#10B98115,#10B98108);border-left:4px solid #10B981;padding:1.6rem 1.8rem;border-radius:8px;text-align:center">
         <h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">Benötigen Sie eine geotechnische Bewertung?</h3>
         <p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Antwort innerhalb von 24h.</p>
         <div style="margin:.4rem 0 0;text-align:center"><a href="mailto:kontakt@geotechnik.vip" style="display:inline-block;background:#10B981;color:#FFF !important;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.05rem;box-shadow:0 4px 12px rgba(0,0,0,.15)">E-Mail: kontakt@geotechnik.vip</a></div>
       </div>
     </section>
-
-        
-
-        <h2>Geltende Normen</h2><p>DIN EN 1997-1:2014-03 (Eurocode 7), DIN SPEC 18537:2018-01 (Verpressanker), DIN 1054:2021-04 (Baugrund), DIN EN 1537:2014-07 (Verankerungen)</p>
-
-        
-    <section class="block sub-services-block" style="padding:3.5rem 1.5rem">
-      <style>
-        .sub-svc-grid { display:flex; flex-wrap:wrap; gap:1.5rem; margin-top:1.5rem; justify-content:center; }
-        .sub-svc-grid > .sub-svc, .sub-svc-grid > a.sub-svc { flex:0 0 calc(50% - 0.75rem); min-width:220px; padding:1rem 1.2rem; border:1px solid #E5E7EB; border-radius:10px; background:#FFFFFF; transition:border-color .18s ease, box-shadow .18s ease, transform .18s ease; position:relative; }
-        .sub-svc-grid > a.sub-svc-link { display:block; text-decoration:none; color:inherit; cursor:pointer; }
-        .sub-svc-grid > a.sub-svc-link:hover { border-color:#10B981; box-shadow:0 4px 14px rgba(0,0,0,.08); transform:translateY(-2px); }
-        .sub-svc-grid > a.sub-svc-link:hover h3 { color:#10B981; }
-        .sub-svc-grid > a.sub-svc-link:hover .sub-svc-arrow { transform:translateX(4px); opacity:1; }
-        .sub-svc-arrow { position:absolute; right:1rem; bottom:.9rem; color:#10B981; font-weight:700; font-size:1.1rem; opacity:.6; transition:transform .18s ease, opacity .18s ease; }
-      </style>
-      <div style="max-width:1200px;margin:0 auto">
-        <h2 style="margin-bottom:1.5rem;font-weight:700">Zugehörige Fachleistungen</h2>
-        <div class="sub-svc-grid">
-          <div class="sub-svc"><div class="sub-svc-num" style="color:#10B981;font-weight:700;font-size:.85rem;letter-spacing:.1em">01</div><h3 style="color:#0F172A;font-size:1.1rem;margin:.3rem 0 .5rem">Geotechnische Erkundung für Anker</h3><p style="color:#333;line-height:1.65;font-size:.93rem">Baugrunderkundung mit Kernbohrungen und Drucksondierungen zur Bestimmung der Ankertragfähigkeit im Keuper und Quartär.</p></div><div class="sub-svc"><div class="sub-svc-num" style="color:#10B981;font-weight:700;font-size:.85rem;letter-spacing:.1em">02</div><h3 style="color:#0F172A;font-size:1.1rem;margin:.3rem 0 .5rem">Bemessung aktiver Litzen- und Stabanker</h3><p style="color:#333;line-height:1.65;font-size:.93rem">Statische Berechnung der Ankerlängen, freien Länge und Verpresskörper nach EC7 und DIN SPEC 18537 für temporäre und permanente Anker.</p></div><div class="sub-svc"><div class="sub-svc-num" style="color:#10B981;font-weight:700;font-size:.85rem;letter-spacing:.1em">03</div><h3 style="color:#0F172A;font-size:1.1rem;margin:.3rem 0 .5rem">Eignungs- und Abnahmeprüfungen</h3><p style="color:#333;line-height:1.65;font-size:.93rem">Durchführung und Auswertung von Zugversuchen an Ankern mit Kriechmaßmessung und Last-Verformungs-Diagramm gemäß DIN EN 1537.</p></div><div class="sub-svc"><div class="sub-svc-num" style="color:#10B981;font-weight:700;font-size:.85rem;letter-spacing:.1em">04</div><h3 style="color:#0F172A;font-size:1.1rem;margin:.3rem 0 .5rem">Passive Verankerung und Vernagelung</h3><p style="color:#333;line-height:1.65;font-size:.93rem">Bemessung von Bodennägeln und passiven Ankersystemen für steile Böschungen und Baugrubenumschließungen im Raum Sindelfingen.</p></div>
-        </div>
-      </div>
-    </section>
-
-        <h2>Typische Parameter</h2><div style="max-width:700px;margin:1.5rem auto;border-left:4px solid #10B981;border-radius:6px;overflow:hidden;background:#FFF;box-shadow:0 1px 3px rgba(0,0,0,.05)"><table style="width:100%;border-collapse:collapse;font-size:.92rem"><thead><tr style="background:#10B981;color:#FFF"><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Parameter</th><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Typischer Wert</th></tr></thead><tbody><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Erkundungstiefe unter Ankerfuß</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">≥ 3,0 m</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Mindestbruchlast Stabstahl (aktiv)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">≥ 1,5 × Bemessungslast</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Freie Länge (vorgespannt)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">≥ 5,0 m</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Verpressdruck im Keuper</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">5–15 bar</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Prüflast Eignungsversuch</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">1,3 × charakteristische Last</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Abnahmeprüfung je Anker</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">100 % der Anker</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Kriechmaß (Ks)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">≤ 2,0 mm</td></tr></tbody></table></div>
-
-        <h2>Häufige Fragen</h2><details class="faq"><summary>Was kostet die Bemessung einer Verankerung in Sindelfingen?</summary><p>Die Kosten für eine aktive oder passive Verankerungsbemessung liegen im Raum Sindelfingen je nach Umfang zwischen €1.070 und €2.940. Der Preis hängt von der Anzahl der Ankerlagen, der erforderlichen Erkundungstiefe und dem Prüfaufwand ab. Eine genaue Kalkulation erhalten Sie nach Einsicht in die Baugrunddaten.</p></details><details class="faq"><summary>Warum braucht man in Sindelfingen spezielle Ankerbemessung?</summary><p>Der Untergrund aus Gipskeuper und quartären Verwitterungsböden ist stark heterogen. Karsterscheinungen und wechselnde Auslaugungsgrade erfordern eine lokale Anpassung der Ankergeometrie und des Verpressverfahrens, die pauschale Normtabellen nicht leisten können.</p></details><details class="faq"><summary>Welche Prüfungen sind bei Dauerankern vorgeschrieben?</summary><p>Nach DIN EN 1537 und der zugehörigen DIN SPEC 18537 sind Eignungsversuche an mindestens drei Ankern je Ankertyp sowie Abnahmeversuche an jedem Daueranker Pflicht. Zusätzlich dokumentieren wir das Kriechmaß über die gesamte Prüfdauer und werten die Last-Verformungskurve aus.</p></details>
-    
 <section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Verfügbare Leistungen</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../flexibler-belag/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Bemessung flexibler Fahrbahnen</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../starrer-belag/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Bemessung starrer Fahrbahnen</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../cbr-strasse/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">CBR-Studie für Straßenentwurf</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section></main>
 </div>
 
@@ -169,7 +132,7 @@ footer a{color:#10B981}
       </div>
     </section>
 
-<footer style="background:#0F172A;color:rgba(255,255,255,.85);padding:3rem 1.5rem 1.5rem"><div style="max-width:720px;margin:0 auto;text-align:center"><h4 style="color:#FFF;font-size:1.15rem;margin:0 0 .3rem">Technische Updates</h4><p style="margin:0 0 1.2rem;color:rgba(255,255,255,.65);font-size:.95rem">E-Mail-Updates erhalten</p><form action="mailto:kontakt@geotechnik.vip" method="post" enctype="text/plain" style="display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap"><input type="email" name="email" placeholder="Ihre E-Mail" style="padding:.7rem 1rem;border-radius:6px;border:none;font-size:.95rem;min-width:220px"><button type="submit" style="background:#10B981;color:#FFF;padding:.7rem 1.4rem;border:none;border-radius:6px;font-weight:700;cursor:pointer">Abonnieren</button></form><p style="margin:1.5rem 0 0;font-size:.82rem;color:rgba(255,255,255,.5)">Sindelfingen, Germany · <a href="mailto:kontakt@geotechnik.vip" style="color:rgba(255,255,255,.7)">kontakt@geotechnik.vip</a> · © 2026</p></div><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>Referenzen:</strong> <a href="https://www.din.de/" rel="nofollow noopener" target="_blank">DIN Normen</a> · <a href="https://eurocodes.jrc.ec.europa.eu/showpage.php?id=132" rel="nofollow noopener" target="_blank">Eurocode 7</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotechnik</a></div><div class="updated-info" data-updated="2026-05-03" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Zuletzt aktualisiert: 2026-05-03</div></footer>
+<footer style="background:#0F172A;color:rgba(255,255,255,.85);padding:3rem 1.5rem 1.5rem"><div style="max-width:720px;margin:0 auto;text-align:center"><h4 style="color:#FFF;font-size:1.15rem;margin:0 0 .3rem">Technische Updates</h4><p style="margin:0 0 1.2rem;color:rgba(255,255,255,.65);font-size:.95rem">E-Mail-Updates erhalten</p><form action="mailto:kontakt@geotechnik.vip" method="post" enctype="text/plain" style="display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap"><input type="email" name="email" placeholder="Ihre E-Mail" style="padding:.7rem 1rem;border-radius:6px;border:none;font-size:.95rem;min-width:220px"><button type="submit" style="background:#10B981;color:#FFF;padding:.7rem 1.4rem;border:none;border-radius:6px;font-weight:700;cursor:pointer">Abonnieren</button></form><p style="margin:1.5rem 0 0;font-size:.82rem;color:rgba(255,255,255,.5)">Sindelfingen, Germany · <a href="mailto:kontakt@geotechnik.vip" style="color:rgba(255,255,255,.7)">kontakt@geotechnik.vip</a> · © 2026</p></div><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>Referenzen:</strong> <a href="https://www.din.de/" rel="nofollow noopener" target="_blank">DIN Normen</a> · <a href="https://eurocodes.jrc.ec.europa.eu/showpage.php?id=132" rel="nofollow noopener" target="_blank">Eurocode 7</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotechnik</a></div><div class="updated-info" data-updated="2026-04-22" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Zuletzt aktualisiert: 2026-05-03</div></footer>
 
 <script id="sidebar-toggle-v3">
 (function(){
